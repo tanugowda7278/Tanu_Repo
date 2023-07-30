@@ -1,0 +1,15 @@
+pipeline{
+agent any
+stages{
+stage ('build'){
+steps{
+sh 'echo "build is sucessful"'
+}
+}
+stage ('deploy'){
+steps{
+sh 'echo " deployment is completed"'
+}
+}
+}
+}
